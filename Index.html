@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>By Carina Stenevald</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333; }
+    header { background:#444; color:white; padding:20px 0; text-align:center; }
+    nav { background:#666; display:flex; justify-content:center; }
+    nav a { color:white; padding:10px 20px; text-decoration:none; }
+    nav a:hover { background:#888; }
+    section { padding:40px 20px; max-width:1000px; margin:auto; }
+    h2 { border-bottom:2px solid #444; padding-bottom:10px; margin-bottom:20px; }
+    .gallery { display:flex; flex-wrap:wrap; gap:10px; }
+    .gallery img { max-width:calc(33% - 10px); height:auto; border:1px solid #ccc; }
+    footer { text-align:center; padding:20px; background:#444; color:white; }
+    @media(max-width:800px){ .gallery img { max-width:calc(50% - 10px); } }
+    @media(max-width:500px){ .gallery img { max-width:100%; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>By Carina Stenevald</h1>
+  <p>Välkommen till min konst- och hantverkssida!</p>
+</header>
+
+<nav>
+  <a href="#konst">Konst</a>
+  <a href="#smycken">Smycken</a>
+  <a href="#textil">Textil</a>
+  <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section id="konst">
+  <h2>Konst</h2>
+  <div class="gallery">
+    <img src="images/konst1.jpg" alt="Konst 1">
+    <img src="images/konst2.jpg" alt="Konst 2">
+    <img src="images/konst3.jpg" alt="Konst 3">
+  </div>
+</section>
+
+<section id="smycken">
+  <h2>Smycken</h2>
+  <div class="gallery">
+    <img src="images/smycken1.jpg" alt="Smycke 1">
+    <img src="images/smycken2.jpg" alt="Smycke 2">
+  </div>
+</section>
+
+<section id="textil">
+  <h2>Textil</h2>
+  <div class="gallery">
+    <img src="images/textil1.jpg" alt="Textil 1">
+    <img src="images/textil2.jpg" alt="Textil 2">
+  </div>
+</section>
+
+<section id="kontakt">
+  <h2>Kontakt</h2>
+  <p>Vill du kontakta mig? Skicka ett mejl till: <a href="mailto:dinmejl@exempel.se">dinmejl@exempel.se</a></p>
+</section>
+
+<footer>
+  <p>© 2026 By Carina Stenevald</p>
+</footer>
+
+</body>
+</html>
