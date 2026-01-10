@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>By Carina Stenevald</title>
+
+  <!--
   <style>
     body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333; }
     header { background:#444; color:white; padding:20px 0; text-align:center; }
@@ -17,6 +19,83 @@
     @media(max-width:800px){ .gallery img { max-width:calc(50% - 10px); } }
     @media(max-width:500px){ .gallery img { max-width:100%; } }
   </style>
+  -->
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #faf5f0;
+    color: #3a2a1a;
+  }
+
+  header {
+    background: #c46a2a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  nav {
+    background: #d97b38;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background: #e8a066;
+  }
+
+  section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  h2 {
+    border-bottom: 2px solid #c46a2a;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .gallery img {
+    max-width: calc(33% - 10px);
+    height: auto;
+    border: 1px solid #e0c2a8;
+    border-radius: 6px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #c46a2a;
+    color: white;
+  }
+
+  @media (max-width: 800px) {
+    .gallery img {
+      max-width: calc(50% - 10px);
+    }
+  }
+
+  @media (max-width: 500px) {
+    .gallery img {
+      max-width: 100%;
+    }
+  }
+</style>
 </head>
 <body>
 
