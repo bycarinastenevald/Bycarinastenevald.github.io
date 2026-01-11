@@ -70,13 +70,28 @@
     flex-wrap: wrap;
     gap: 10px;
   }
-
+/*
   .gallery img {
     max-width: calc(33% - 10px);
     height: auto;
     border: 1px solid #e0c2a8;
     border-radius: 6px;
-  }
+  } */
+
+  .gallery-item {
+  width: calc(33% - 10px);
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-item p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: #555;
 
   footer {
     text-align: center;
@@ -121,7 +136,7 @@
     <img src="Images/IMG_0105.jpeg" alt="Xavier">
   </div>
 </section>
-  -->
+
 <section id="konst">
   <h2>Konst</h2>
   <div class="gallery">
@@ -130,7 +145,29 @@
     <img src="images/konst3.jpg" alt="Konst 3">
   </div>
 </section>
+-->
+  
+  <section id="konst">
+  <h2>Konst</h2>
+  <div class="gallery">
 
+    <div class="gallery-item">
+      <img src="images/Woodstock.HEIC" alt="Woodstock">
+      <p>Woodstock</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/konst2.jpg" alt="Konst 2">
+      <p>Bild namn</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/konst3.jpg" alt="Konst 3">
+      <p>Bild namn</p>
+    </div>
+
+  </div>
+</section>
 <!--
 <section id="smycken">
   <h2>Smycken</h2>
